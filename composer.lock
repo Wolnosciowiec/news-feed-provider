@@ -1395,16 +1395,16 @@
         },
         {
             "name": "liip/monitor-bundle",
-            "version": "2.6.1",
+            "version": "2.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipMonitorBundle.git",
-                "reference": "0d816a8c87620a4775b85fabf7fe2face59844aa"
+                "reference": "6e46cdb73ea7600a4b947f1a3eaba09c4c4e6556"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipMonitorBundle/zipball/0d816a8c87620a4775b85fabf7fe2face59844aa",
-                "reference": "0d816a8c87620a4775b85fabf7fe2face59844aa",
+                "url": "https://api.github.com/repos/liip/LiipMonitorBundle/zipball/6e46cdb73ea7600a4b947f1a3eaba09c4c4e6556",
+                "reference": "6e46cdb73ea7600a4b947f1a3eaba09c4c4e6556",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 "monitor",
                 "monitoring"
             ],
-            "time": "2017-12-06T09:39:43+00:00"
+            "time": "2017-12-18T13:22:14+00:00"
         },
         {
             "name": "miniflux/picofeed",
