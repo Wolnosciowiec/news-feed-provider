@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed5a37e9c4965776a1622b52279372cd",
+    "content-hash": "3f3259278d5d9cfcec235026ebb31601",
     "packages": [
         {
             "name": "blocktrail/cryptojs-aes-php",
@@ -1293,57 +1293,6 @@
             "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "incenteev/composer-parameter-handler",
-            "version": "v2.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
-                "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "symfony/yaml": "~2.3|~3.0"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpspec/prophecy-phpunit": "~1.0",
-                "symfony/filesystem": "~2.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Incenteev\\ParameterHandler\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
-                }
-            ],
-            "description": "Composer script handling your ignored parameter file",
-            "homepage": "https://github.com/Incenteev/ParameterHandler",
-            "keywords": [
-                "parameters management"
-            ],
-            "time": "2015-11-10T17:04:01+00:00"
-        },
-        {
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -1395,16 +1344,16 @@
         },
         {
             "name": "liip/monitor-bundle",
-            "version": "2.6.1",
+            "version": "2.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipMonitorBundle.git",
-                "reference": "0d816a8c87620a4775b85fabf7fe2face59844aa"
+                "reference": "ec3cb6c138db79c78ab48a2409146194f2576bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipMonitorBundle/zipball/0d816a8c87620a4775b85fabf7fe2face59844aa",
-                "reference": "0d816a8c87620a4775b85fabf7fe2face59844aa",
+                "url": "https://api.github.com/repos/liip/LiipMonitorBundle/zipball/ec3cb6c138db79c78ab48a2409146194f2576bce",
+                "reference": "ec3cb6c138db79c78ab48a2409146194f2576bce",
                 "shasum": ""
             },
             "require": {
@@ -1434,7 +1383,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1471,7 +1420,7 @@
                 "monitor",
                 "monitoring"
             ],
-            "time": "2017-12-06T09:39:43+00:00"
+            "time": "2018-06-28T05:13:08+00:00"
         },
         {
             "name": "miniflux/picofeed",
@@ -1524,6 +1473,7 @@
             ],
             "description": "Modern library to handle RSS/Atom feeds",
             "homepage": "https://github.com/miniflux/picoFeed",
+            "abandoned": true,
             "time": "2017-11-02T03:20:36+00:00"
         },
         {
@@ -2968,12 +2918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Wolnosciowiec/FileRepositoryBundle.git",
-                "reference": "9f76e908d4f22b2e6d4378f2a03fa772795db624"
+                "reference": "58e615907e7d39623ab62a0c0da1bdb6d3de80c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Wolnosciowiec/FileRepositoryBundle/zipball/9f76e908d4f22b2e6d4378f2a03fa772795db624",
-                "reference": "9f76e908d4f22b2e6d4378f2a03fa772795db624",
+                "url": "https://api.github.com/repos/Wolnosciowiec/FileRepositoryBundle/zipball/58e615907e7d39623ab62a0c0da1bdb6d3de80c9",
+                "reference": "58e615907e7d39623ab62a0c0da1bdb6d3de80c9",
                 "shasum": ""
             },
             "require": {
@@ -3004,7 +2954,7 @@
                 "LGPL-3.0-or-later"
             ],
             "description": "Provides an interface to connect with `wolnosciowiec/image-repository` server",
-            "time": "2018-02-13T19:10:00+00:00"
+            "time": "2018-06-21T05:12:05+00:00"
         },
         {
             "name": "wolnosciowiec/paginator-bundle",
@@ -3257,6 +3207,57 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "incenteev/composer-parameter-handler",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Incenteev/ParameterHandler.git",
+                "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
+                "reference": "d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpspec/prophecy-phpunit": "~1.0",
+                "symfony/filesystem": "~2.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Incenteev\\ParameterHandler\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christophe Coevoet",
+                    "email": "stof@notk.org"
+                }
+            ],
+            "description": "Composer script handling your ignored parameter file",
+            "homepage": "https://github.com/Incenteev/ParameterHandler",
+            "keywords": [
+                "parameters management"
+            ],
+            "time": "2015-11-10T17:04:01+00:00"
+        },
         {
             "name": "jms/metadata",
             "version": "1.6.0",
